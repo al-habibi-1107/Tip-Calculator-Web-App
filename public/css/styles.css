@@ -49,7 +49,7 @@ nav ul a:hover{
 
 .bodybox{
     position: relative;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -57,7 +57,7 @@ nav ul a:hover{
 
 .textbox h2{
   
-    margin-top: 30%;
+    margin-top: 25%;
     font-size: 4rem;
     width: 600px;
     line-height: 1.5;
@@ -71,8 +71,37 @@ nav ul a:hover{
 
 
 .card{
-    margin-top: 30%;
-    height: 60vh;
+    margin-top: 50%;
     width: 20rem;
-    padding: 3px 10px;
+    padding: 20px 20px;
+}
+
+label{
+    color: black;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+form button{
+    position: relative;
+    left:30%
+}
+hr{
+    border-top: 1px dashed grey;
+}
+form p{
+    color: black;
+}
+footer{
+    position: relative;
+    left: 35%;
+}
+footer a{
+    color: hotpink;
+}
+
+footer a:hover{
+    font-size: larger;
+    color: cyan;
+    text-decoration: none;
 }
